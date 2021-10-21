@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tenemos una gran variedad de especieces de peces esperandote, tambien contamos con una amplia variedad de insumos para el cuidado de tu acuario">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Sigmar+One&family=Squada+One&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@900&family=Play&family=Tajawal&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> 
+    <link rel="stylesheet" href="estilos/styles.css">
+    <title>Tienda de acuarios</title>
+</head>
+
+<body>
+
+<header>
+    <div class="contenedor__logo">
+        <img class="logo" src="imagenes/contenedorLogo/logo.jpg" alt="Homero pescado">
+    </div>
+    <h1>Acuario Cosme Fulanito</h1>  
+    <h2 class="subtitulo-de-pagina">Atendido Por Sus Propios Dueños</h2> 
+    <nav class="header-nav">
+        <ul class="header-nav__menu" >
+            <li class="menu__links">
+                <a class="links__of-menu" href="index.html">Inicio</a>
+            </li>
+
+            <li class="menu__links">
+                <a class="links__of-menu" href="quienes.html"> Quienes Somos</a>
+            </li>
+
+            <li class="menu__links">
+                <a class="links__of-menu" href="preguntas.html">Preguntas Frecuentes</a>
+            </li>
+
+            <li class="menu__links-store">
+                <a class="links__of-menu" href="tienda.html"> Tienda</a>
+               <!--  <ul class="links-store__list" >
+                    <li class="list__items">
+                        <a class="links__of-menu" href="tienda.html#fria">Peces Agua Fria</a>
+                    </li>
+                    <li class="list__items">
+                        <a class="links__of-menu" href="tienda.html#tropicales">Peces Agua Caliente</a>
+                    </li>
+                    <li class="list__items">
+                        <a class="links__of-menu" href="tienda.html#aire">Airadores</a>
+                    </li>
+
+                </ul> -->
+            </li>
+
+            <li class="menu__links">
+                <a class="links__of-menu" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+  <h1>Tienda </h1> 
+
+ <div class="container">
+     <div class="row">
+         <!-- Elementos generados a partir del JSON -->
+         <main id="items" class="col-sm-8 row"></main>
+         <!-- Carrito -->
+         <aside class="col-sm-4">
+             <h2>Carrito</h2>
+             <!-- Elementos del carrito -->
+             <ul id="carrito" class="list-group"></ul>
+             <hr>
+             <!-- Precio total -->
+             <p class="text-right">Total: $ <span id="total"></span></p>
+             <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+             <button type="button" id="btnGuardar">Guardar</button>
+         </aside>
+     </div>
+ </div>
+
+
+
+
+ <!-- //lista en comentario -->
+<!--  <h2>Anotate en nuestra lista de clientes para obtener un descuento en tu proxima compra</h2>
+
+ <hr>
+
+ <div>
+     <br>
+     <button id="mostrar" class="btn btn-primary">Mostrar Lista De Clientes Frecuentes</button>
+     <button id="registro" class="btn btn-primary">Anotate con tu Usuario</button>
+     <button id="actualiza" class="btn btn-primary">Actualiza la lista</button>
+
+ </div>
+ <br>
+ <main class="listaVip">
+ -->
+         
+
+</main>
+
+<br>
+
+
+
+
+
+
+
+
+
+ <footer> 
+    
+    <div class="footer-container">
+        <div class="footer-container__section">
+            <h3 class="list__title-of-sections-footer">Navegacion</h3>
+
+            <nav class="section__menu">
+                <ul class="menu__list">
+                   
+                    <li class="list__footer-menu">
+                        <a class="footer-menu__links"  href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="list__footer-menu">
+                        <a class="footer-menu__links"  href="quienes.html">Quienes Somos</a>
+                    </li>
+
+                    <li class="list__footer-menu">
+                        <a class="footer-menu__links" href="preguntas.html">Preguntas Frecuentes</a>
+                    </li>
+
+                    <li class="list__footer-menu">
+                        <a class="footer-menu__links"  href="tienda.html">Tienda</a>
+                    </li>
+
+                    <li class="list__footer-menu">
+                        <a class="footer-menu__links"  href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-container__section"> 
+            <h3 class="section__title-of-sections-footer">Medios De Pago</h3>
+            <a  href="http://www.mercadopago.com" target="_blank"><img class="section__cards-accepted" src="imagenes/imagenesFooter/mediosDePago.png" alt="medios de pago"></a>
+        </div>
+
+
+        <div class="footer-container__section"> 
+            <h3 class="section__title-of-sections-footer-last">Contacto</h3>
+
+            <div class="section__infoplace">
+                <img class="info-place__image-footer" src="imagenes/imagenesFooter/logolocal.png" alt="svg local">
+                <p class="info-place__data">Rivadavia 2050,Flores</p>
+            </div>
+
+            <div class="section__info-place">
+                <img class="info-place__image-footer" src="imagenes/imagenesFooter/logoteleno.png" alt="svg telefono">
+                <p class="info-place__data" >4545-5050/8080</p>
+            </div>
+
+            <div class="section__info-place">
+                <img class="info-place__image-footer" src="imagenes/imagenesFooter/logoemail.png" alt="svg email">
+                <p class="info-place__data">cosmefulanito@gmail.com</p>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+<script src="/js/main.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>

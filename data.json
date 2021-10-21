@@ -1,0 +1,121 @@
+[
+    {
+        "id":1,
+        "nombre": "Goldfish",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y8 ",
+        "dieta": "Omnivoro",
+        "longitud": "Hasta 20cms",
+        "precio":200,
+        "imagen":"./imagenes/imagenesTienda/pez_cometa.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Rasbona",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y 7.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 1 y 1.5cm",
+        "precio": 120,
+        "imagen":"./imagenes/imagenesTienda/rasbona_galaxy.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Neon ",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y 8.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 4 a 6cm",
+        "precio": 80,
+        "imagen":"./imagenes/imagenesTienda/neon.jpg"
+    },
+    {
+        "id":4,
+        "nombre":"Telescopio",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y 8",
+        "dieta":"Omnivoro",
+        "longitud": "Hasta 20cm",
+        "precio": 250,
+        "imagen":"./imagenes/imagenesTienda/telescopio.jpg"
+    },
+    {
+        "id":5,
+        "nombre":"Gurami",
+        "temperamento": "Agresivo",
+        "pH": "Entre 6 y 8",
+        "dieta":"Omnivoro",
+        "longitud": "Hasta 10cm",
+        "precio": 280,
+        "imagen":"./imagenes/imagenesTienda/gurami.jpg"
+    },
+    {
+        "id":6,
+        "nombre":"Betta",
+        "temperamento": "Agresivo",
+        "pH": "Entre 6 y 7.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 1 y 1.5cm",
+        "precio": 150,
+        "imagen":"./imagenes/imagenesTienda/betta.jpg"
+    },
+    {
+        "id":7,
+        "nombre":"Escalar",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y 7.4",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 15cm y 20cm de alto ",
+        "precio": 90,
+        "imagen":"./imagenes/imagenesTienda/escalar.jpg"
+    },
+    {   "id":8,
+        "nombre":"Guppy",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 7 y 8.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 3 y 4cm en los machos y 6cm en las hembras",
+        "precio": 120,
+        "imagen":"./imagenes/imagenesTienda/guppy.jpg"
+    },
+    {
+        "id":9,
+        "nombre":"Bardo Ros",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 6 y 7.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 1 y 1.5cm",
+        "precio": 300,
+        "imagen":"./imagenes/imagenesTienda/bardo.jpg"
+    },
+    {
+        "id":10,
+        "nombre":"Pez Disco",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 5.5 y 6.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 15 y 30cm",
+        "precio": 350,
+        "imagen":"./imagenes/imagenesTienda/pezDisco.jpg"
+    },
+    {
+        "id":11,
+        "nombre":"Pez Piraña",
+        "temperamento": "Agresivo",
+        "pH": "Entre 5.5 y 7.5",
+        "dieta":"Carnivoro",
+        "longitud": "Entre 15 y 25cm",
+        "precio": 320,
+        "imagen":"./imagenes/imagenesTienda/piraña.jpg"
+    },
+    {
+        "id":12,
+        "nombre":"Blinky",
+        "temperamento": "Tranquilo",
+        "pH": "Entre 0.5 y 8.5",
+        "dieta":"Omnivoro",
+        "longitud": "Entre 20 y 50cm",
+        "precio": 500,
+        "imagen":"./imagenes/imagenesTienda/blinky.jpg"
+    }
+]
